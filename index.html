@@ -2,14 +2,56 @@
 <html lang="en">
 
 <head>
+	<meta charset="UTF-8">
+	<title>Valentine</title>
+
 	<link rel="stylesheet" href="./Styles/styles.css">
 	<script src="./script.js" defer></script>
+
 	<style>
 		.gif_container img {
 			width: 400px;
-			/* increase size */
 			max-width: 90%;
-			/* keeps it responsive */
+			height: auto;
+		}
+
+		/* Jiji is positioned independently of layout */
+		.jiji_container {
+			position: absolute;
+			right: -50px;
+			bottom: 80px;
+			pointer-events: none; /* prevents blocking buttons */
+		}
+
+		.jiji_container img {
+			width: 400px;
+			max-width: 90%;
+			height: auto;
+		}
+		
+		.rose1_container {
+			position: absolute;
+			left: 50px;
+			bottom: 80px;
+			pointer-events: none;
+		}
+
+		.rose1_container img {
+			width: 400px;
+			max-width: 90%;
+			height: auto;
+		}
+
+		.rose2_container {
+			position: absolute;
+			right: -50px;
+			bottom: 80px;
+			pointer-events: none;
+		}
+
+		.rose2_container img {
+			width: 400px;
+			max-width: 90%;
 			height: auto;
 		}
 	</style>
@@ -20,15 +62,28 @@
 		<div>
 			<h1 class="header_text">Will you be my valentine?</h1>
 		</div>
+
 		<div class="gif_container">
 			<img src="Styles/love-i-love-you.gif" alt="Cute animated illustration">
 		</div>
+
 		<div class="buttons">
 			<button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
 			<button class="btn" id="noButton" onmouseover="moveButton()">No</button>
 		</div>
-
 	</div>
+
+	<!-- All the floating images -->
+	<div class="jiji_container">
+		<img src="Styles/jijis.jpg" alt="Jiji">
+	</div>
+	<div class="rose1_container">
+		<img src="Styles/roses.jpg" alt="Rose_left">
+	</div>
+	<div class="rose2_container">
+		<img src="Styles/roses.jpg" alt="Rose_right">
+	</div>
+	
 </body>
 
 </html>
