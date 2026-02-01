@@ -3,7 +3,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #F2B1B1;
+    background-image: url("kamel.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* Position the "No" button absolutely within body */

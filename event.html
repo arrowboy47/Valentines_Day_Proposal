@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/yes.css" />
+    <script src="./script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="header_text">What should we do?</h1>
+
+      <p class="text" style="font-size: x-large; margin-bottom: 20px">
+        (pick as many as you want)
+      </p>
+
+      <div class="buttons" style="flex-wrap: wrap; max-width: 700px">
+        <button class="btn event-btn" onclick="toggleEvent(this, 'Filoli')">
+          Filoli
+        </button>
+        <button class="btn event-btn" onclick="toggleEvent(this, 'Thrifting')">
+          Thrifting
+        </button>
+        <button
+          class="btn event-btn"
+          onclick="toggleEvent(this, 'Picnic + Paint')"
+        >
+          Picnic + Paint
+        </button>
+        <button class="btn event-btn" onclick="toggleEvent(this, 'Hike')">
+          Hike
+        </button>
+        <button class="btn event-btn" onclick="toggleEvent(this, 'Moped')">
+          Moped
+        </button>
+        <button
+          class="btn event-btn"
+          onclick="toggleEvent(this, 'Sephora / Ulta')"
+        >
+          Sephora / Ulta
+        </button>
+        <button class="btn event-btn" onclick="toggleEvent(this, 'Cat Cafe')">
+          Cat Cafe
+        </button>
+        <button
+          class="btn event-btn"
+          onclick="toggleEvent(this, 'Cook Dinner')"
+        >
+          Cook Dinner
+        </button>
+        <button class="btn event-btn" onclick="toggleEvent(this, 'Six Flags')">
+          Six Flags
+        </button>
+        <button class="btn event-btn" onclick="toggleEvent(this, 'Bowling')">
+          Bowling
+        </button>
+      </div>
+      <div class="buttons next-container">
+        <button class="btn next-btn" onclick="saveEvents()">
+          Next Question →
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,32 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/yes.css" />
+  </head>
+  <script src="./script.js" defer></script>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">Hoorayy!!!!</h1>
+      </div>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./Styles/yes.css">
-	<!-- Include any additional stylesheets or meta tags here -->
-</head>
+      <div class="gif_container">
+        <img
+          src="https://i.gifer.com/3P1AF.gif"
+          alt="Cute animated illustration"
+          style="margin-top: -5px;"
+        />
+      </div>
 
-<body>
-	<div class="container">
-		<div>
-			<h1 class="header_text">Hoorayy!!!</h1>
-		</div>
-		<div class="gif_container">
-			<img src="https://i.gifer.com/3P1AF.gif" alt="Cute animated illustration"
-				style="margin-top: -5px;">
-		</div>
-		<!-- Adjusted position of the text element by 100px -->
-		<p class="text" style="margin-top: -10px;">I can't believe you said yes!</p>
-	</div>
+      <p class="text" style="margin-top: -10px;">
+        I can't believe you said yes!
+      </p>
 
-	<!-- Note: Positioned at the bottom near the footbar -->
-	<p
-		style="position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); text-align: center; color: #777;">
-		💖</p>
+      <p class="text" style="font-size: x-large;">
+        Are you ready to plan out our date?!
+      </p>
 
-	<!-- Include any external scripts if needed -->
-</body>
-
+      <div class="buttons" style="margin-top: 10px;">
+        <button class="btn" id="survey" onclick="surveyPage()">
+          Press to Proceed
+        </button>
+      </div>
+    </div>
+  </body>
 </html>

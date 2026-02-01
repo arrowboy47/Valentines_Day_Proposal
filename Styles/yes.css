@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #CBE6EF;
+    background-color: #F2B1B1;
 }
 
 /* Position the "No" button absolutely within body */
@@ -41,7 +41,7 @@ body {
 }
 
 .btn {
-    background-color: #80c3d8;
+    background-color: #ED5757;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -64,3 +64,18 @@ body {
     align-items: center;
 }
 
+.next-btn {
+	color: #ffffff;
+}
+.next-container {
+	justify-content: center;
+}
+
+.next-btn {
+	background-color: #74070E;   /* button background */
+	color: #ffffff;              /* text color */
+}
+
+.next-btn:hover {
+	background-color: #ffffff;
+}
